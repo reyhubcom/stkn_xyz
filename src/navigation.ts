@@ -57,7 +57,7 @@ export const headerData = {
       ],
     },
     {
-      text: 'Landing',
+      text: 'Lending',
       links: [
         {
           text: 'Lead Generation',
@@ -111,8 +111,8 @@ export const headerData = {
       ],
     },
     {
-      text: 'Crypto Bubble',
-      href: '/homes/cbubble',
+      text: 'Lending',
+      href: 'https://fluid.io/smart-lending/1' ,target: ' _blank',
     },
   ],
   actions: [{ text: 'APP STAKING', href: 'https://linktr.ee/reystaking', target: '_blank' }],
