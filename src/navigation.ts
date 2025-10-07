@@ -28,31 +28,31 @@ export const headerData = {
       links: [
         {
           text: 'Solana DeFi ',
-          href: getPermalink('/homes/sol'),
+          href: getPermalink('/home/sol'),
         },
         {
           text: 'Ethereum DeFi',
-          href: getPermalink('/homes/eth'),
+          href: getPermalink('/home/eth'),
         },
         {
           text: 'Binance DeFi',
-          href: getPermalink('/homes/bnb'),
+          href: getPermalink('/home/bnb'),
         },
         {
           text: 'Polygon DeFi',
-          href: getPermalink('/homes/pol'),
+          href: getPermalink('/home/pol'),
         },
         {
           text: 'Avalanche DeFi',
-          href: getPermalink('/homes/avax'),
+          href: getPermalink('/home/avax'),
         },
         {
           text: 'Arbitrum DeFi',
-          href: getPermalink('/homes/arb'),
+          href: getPermalink('/home/arb'),
         },
         {
-          text: 'Privacy policy',
-          href: getPermalink('/privacy'),
+          text: 'View All DeFi',
+          href: getPermalink('#'),
         },
       ],
     },
@@ -173,10 +173,10 @@ export const footerData = {
     { ariaLabel: 'X', icon: 'tabler:brand-x', href: '#' },
     { ariaLabel: 'Instagram', icon: 'tabler:brand-instagram', href: '#' },
     { ariaLabel: 'Facebook', icon: 'tabler:brand-facebook', href: '#' },
-    { ariaLabel: 'RSS', icon: 'tabler:rss', href: getAsset('/rss.xml') },
+    { ariaLabel: 'RSS', icon: 'tabler:rss', href: '#'},
     { ariaLabel: 'Github', icon: 'tabler:brand-github', href: '#' },
   ],
   footNote: `
-    Made by <a class="text-blue-600 underline dark:text-muted" href="https://reyhub.com"> Rey</a> · ReyFy.xyz All Rights Reserved.
+    Made by <a class="text-blue-600 underline dark:text-muted" href="https://reyhub.com"> Rey</a> 2025 STKN.xyz All Rights Reserved.
   `,
 };
