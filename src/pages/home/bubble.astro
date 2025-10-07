@@ -1,0 +1,97 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+
+import Hero from '~/components/widgets/Hero.astro';
+import CallToAction from '~/components/widgets/CallToAction.astro';
+
+import Features2 from '~/components/widgets/Features2.astro';
+import Features from '~/components/widgets/Features.astro';
+import Stats from '~/components/widgets/Stats.astro';
+import Features3 from '~/components/widgets/Features3.astro';
+import FAQs from '~/components/widgets/FAQs.astro';
+import Brands from '~/components/widgets/Brands.astro';
+
+import { YouTube } from 'astro-embed';
+
+const metadata = {
+  title: 'Crypto Bubbles',
+};
+---
+
+<Layout metadata={metadata}>
+  <!-- Hero Widget ******************* -->
+
+  <Hero
+    tagline=""
+     actions={[
+      {
+        variant: 'secondary',
+        target: '_blank',
+        text: '1inch',
+        href: 'https://app.1inch.io/',
+        icon: 'tabler:arrow-up-right',
+      },
+      {
+        variant: 'secondary',
+        target: '_blank',
+        text: 'Matcha',
+        href: 'https://matcha.xyz/',
+        icon: 'tabler:arrow-up-right',
+      },
+       {
+        variant: 'secondary',
+        target: '_blank',
+        text: 'AirSwap',
+        href: 'https://www.airswap.xyz/',
+        icon: 'tabler:arrow-up-right',
+      },
+       {
+        variant: 'secondary',
+        target: '_blank',
+        text: 'Slingshot',
+        href: 'https://slingshot.app/',
+        icon: 'tabler:arrow-up-right',
+      },
+       {
+        variant: 'secondary',
+        target: '_blank',
+        text: 'Sushi',
+        href: 'https://www.sushi.com/',
+        icon: 'tabler:arrow-up-right',
+      },
+       
+    ]}
+  >
+    <Fragment slot="title">
+       <span class="hidden sm:inline"></span>  <span
+        class="text-accent dark:text-white"></span
+      > Crypto Bubbles
+    </Fragment>
+
+    <Fragment slot="subtitle">
+      <script defer src="https://www.livecoinwatch.com/static/lcw-widget.js"></script> <div class="livecoinwatch-widget-5" lcw-base="USD" lcw-color-tx="#0693e3" lcw-marquee-1="coins" lcw-marquee-2="movers" lcw-marquee-items="30" ></div>
+  <iframe src="https://cryptobubbles.net" width="100%" height="800px" style="border: 1" loading="lazy"></iframe>
+      <span class="font-semibold"> </span> 
+    </Fragment>
+
+    <Fragment slot="image">
+      
+    </Fragment>
+  </Hero>
+
+  <!-- Features2 Widget ************** -->
+
+  <Features2
+    title="Crypto Bubbles"
+    subtitle="Crypto Bubbles is available as a website at cryptobubbles.net and as an app for your phone. No financial advice. Do your own research!"
+  >
+    <Fragment slot="bg">
+      <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
+    </Fragment>
+  </Features2>
+
+  <!-- Stats Widget ****************** -->
+
+ 
+  
+</Layout>
