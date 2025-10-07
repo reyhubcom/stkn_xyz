@@ -1,6 +1,6 @@
 site:
   name: STKN.xyz
-  site: 'https://stkn.xyz'
+  site: 'https://reyfy.xyz'
   base: '/'
   trailingSlash: false
 
@@ -10,8 +10,8 @@ site:
 metadata:
   title:
     default: STKN.xyz
-    template: '%s — STKN'
-  description: "Crypto staking is a process of locking up or committing your cryptocurrency holdings to a blockchain network to help validate transactions and secure the network. For your participation, you can earn rewards, which is similar to earning interest in a traditional savings account."
+    template: '%s — AstroWind'
+  description: "\U0001F680 Crypto staking is a process of locking up or committing your cryptocurrency holdings to a blockchain network to help validate transactions and secure the network. For your participation, you can earn rewards, which is similar to earning interest in a traditional savings account."
   robots:
     index: true
     follow: true
