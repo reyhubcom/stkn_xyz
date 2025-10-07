@@ -86,11 +86,11 @@ export const headerData = {
       ],
     },
     {
-      text: 'Blog',
+      text: 'Crypto',
       links: [
         {
-          text: 'Blog List',
-          href: getBlogPermalink(),
+          text: 'Crypto Bubbles',
+          href: getPermalink( '/home/bubble'),
         },
         {
           text: 'Article',
