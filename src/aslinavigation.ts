@@ -3,11 +3,11 @@ import { getPermalink, getBlogPermalink, getAsset } from './utils/permalinks';
 export const headerData = {
   links: [
     {
-      text: 'Staking',
+      text: 'Homes',
       links: [
         {
-          text: 'What is Staking?',
-          href: getPermalink('/homes/staking'),
+          text: 'SaaS',
+          href: getPermalink('/homes/saas'),
         },
         {
           text: 'Startup',
@@ -24,31 +24,31 @@ export const headerData = {
       ],
     },
     {
-      text: 'DeFi',
+      text: 'Pages',
       links: [
         {
-          text: 'Solana DeFi ',
-          href: getPermalink('/homes/sol'),
+          text: 'Features (Anchor Link)',
+          href: getPermalink('/#features'),
         },
         {
-          text: 'Ethereum DeFi',
-          href: getPermalink('/homes/eth'),
+          text: 'Services',
+          href: getPermalink('/services'),
         },
         {
-          text: 'Binance DeFi',
-          href: getPermalink('/homes/bnb'),
+          text: 'Pricing',
+          href: getPermalink('/pricing'),
         },
         {
-          text: 'Polygon DeFi',
-          href: getPermalink('/homes/pol'),
+          text: 'About us',
+          href: getPermalink('/about'),
         },
         {
-          text: 'Avalanche DeFi',
-          href: getPermalink('/homes/avax'),
+          text: 'Contact',
+          href: getPermalink('/contact'),
         },
         {
-          text: 'Arbitrum DeFi',
-          href: getPermalink('/homes/arb'),
+          text: 'Terms',
+          href: getPermalink('/terms'),
         },
         {
           text: 'Privacy policy',
@@ -111,25 +111,25 @@ export const headerData = {
       ],
     },
     {
-      text: 'Crypto Bubble',
-      href: '/homes/cbubble',
+      text: 'Widgets',
+      href: '#',
     },
   ],
-  actions: [{ text: 'APP STAKING', href: 'https://linktr.ee/reystaking', target: '_blank' }],
+  actions: [{ text: 'Download', href: 'https://github.com/arthelokyo/astrowind', target: '_blank' }],
 };
 
 export const footerData = {
   links: [
     {
-      title: 'Networks',
+      title: 'Product',
       links: [
-        { text: 'Ethereum', href: '#' },
-        { text: 'Solana', href: '#' },
-        { text: 'Binance', href: '#' },
-        { text: 'BASE', href: '#' },
-        { text: 'Polygon', href: '#' },
-        { text: 'Cosmos', href: '#' },
-        { text: 'All Networks', href: '/homes/crypto' },
+        { text: 'Features', href: '#' },
+        { text: 'Security', href: '#' },
+        { text: 'Team', href: '#' },
+        { text: 'Enterprise', href: '#' },
+        { text: 'Customer stories', href: '#' },
+        { text: 'Pricing', href: '#' },
+        { text: 'Resources', href: '#' },
       ],
     },
     {
@@ -166,17 +166,17 @@ export const footerData = {
     },
   ],
   secondaryLinks: [
-    { text: 'Terms', href: getPermalink('#') },
-    { text: 'Privacy Policy', href: getPermalink('#') },
+    { text: 'Terms', href: getPermalink('/terms') },
+    { text: 'Privacy Policy', href: getPermalink('/privacy') },
   ],
   socialLinks: [
     { ariaLabel: 'X', icon: 'tabler:brand-x', href: '#' },
     { ariaLabel: 'Instagram', icon: 'tabler:brand-instagram', href: '#' },
     { ariaLabel: 'Facebook', icon: 'tabler:brand-facebook', href: '#' },
     { ariaLabel: 'RSS', icon: 'tabler:rss', href: getAsset('/rss.xml') },
-    { ariaLabel: 'Github', icon: 'tabler:brand-github', href: '#' },
+    { ariaLabel: 'Github', icon: 'tabler:brand-github', href: 'https://github.com/arthelokyo/astrowind' },
   ],
   footNote: `
-    Made by <a class="text-blue-600 underline dark:text-muted" href="https://reyhub.com"> Rey</a> · ReyFy.xyz All Rights Reserved.
+    Made by <a class="text-blue-600 underline dark:text-muted" href="https://github.com/arthelokyo"> Arthelokyo</a> · All rights reserved.
   `,
 };
