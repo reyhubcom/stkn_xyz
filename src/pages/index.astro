@@ -54,7 +54,11 @@ const metadata = {
 
 <!-- Prepare a div in your <body> for Plugin to render -->
 <!-- Adjust the width and height to suit your requirements -->
-<div id="target-container" style="width: 400px; height: 400px;"></div>
+<div id="target-container" style="width: 400px; height: 300px;"></div>
+window.Jupiter.init({
+  displayMode: "integrated",
+  integratedTargetId: "target-container",
+});
 
   <!-- Note Widget ******************* -->
  <script>
