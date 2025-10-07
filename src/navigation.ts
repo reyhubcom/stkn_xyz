@@ -60,8 +60,8 @@ export const headerData = {
       text: 'Bridge',
       links: [
         {
-          text: 'Lead Generation',
-          href: getPermalink('/landing/lead-generation'),
+          text: 'Bridge Coins',
+          href: getPermalink('/home/bridge'),
         },
         {
           text: 'Long-form Sales',
