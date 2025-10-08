@@ -60,7 +60,7 @@ export const headerData = {
       text: 'Bridge',
       links: [
         {
-          text: 'Bridge Coins',
+          text: 'Crypto Bridge',
           href: getPermalink('/home/bridge'),
         },
         {
