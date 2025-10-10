@@ -1,0 +1,99 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+
+import Hero from '~/components/widgets/Hero.astro';
+import CallToAction from '~/components/widgets/CallToAction.astro';
+
+import Features2 from '~/components/widgets/Features2.astro';
+import Features from '~/components/widgets/Features.astro';
+import Stats from '~/components/widgets/Stats.astro';
+import Features3 from '~/components/widgets/Features3.astro';
+import FAQs from '~/components/widgets/FAQs.astro';
+import Brands from '~/components/widgets/Brands.astro';
+
+import { YouTube } from 'astro-embed';
+
+const metadata = {
+  title: 'Solana Chart Price',
+};
+---
+
+<Layout metadata={metadata}>
+  <!-- Hero Widget ******************* -->
+
+  <Hero
+    tagline=""
+     actions={[
+      {
+        variant: 'secondary',
+        target: '_blank',
+        text: 'Jupiter',
+        href: 'https://jup.ag/',
+        icon: 'tabler:link',
+      },
+      {
+        variant: 'secondary',
+        target: '_blank',
+        text: 'Kyber',
+        href: 'https://kyberswap.com/',
+        icon: 'tabler:link',
+      },
+       {
+        variant: 'secondary',
+        target: '_blank',
+        text: 'Drift',
+        href: 'https://app.drift.trade/',
+        icon: 'tabler:link',
+      },
+       {
+        variant: 'secondary',
+        target: '_blank',
+        text: 'Raydium',
+        href: 'https://raydium.io/',
+        icon: 'tabler:link',
+      },
+       {
+        variant: 'secondary',
+        target: '_blank',
+        text: 'ORCA',
+        href: 'https://www.orca.so/',
+        icon: 'tabler:link',
+      },
+       
+    ]}
+  >
+    <Fragment slot="title">
+       <span class="hidden sm:inline"></span>  <span
+        class="text-accent dark:text-white"></span
+      > Solana Chart Price
+    </Fragment>
+
+    <Fragment slot="subtitle">
+      <script defer src="https://www.livecoinwatch.com/static/lcw-widget.js"></script> <div class="livecoinwatch-widget-5" lcw-base="USD" lcw-color-tx="#0693e3" lcw-marquee-1="coins" lcw-marquee-2="movers" lcw-marquee-items="30" ></div>
+
+   <script src="https://unpkg.com/@lottiefiles/dotlottie-wc@0.7.1/dist/dotlottie-wc.js" type="module"></script>
+<dotlottie-wc src="https://lottie.host/9cfc366f-c630-4614-b498-930a798013b0/Of3rAyYW1r.lottie" speed="0.5" style="width: 100%; height: 600px" mode="forward" loop autoplay></dotlottie-wc>
+      <span class="font-semibold"> </span> 
+    </Fragment>
+
+    <Fragment slot="image">
+      
+    </Fragment>
+  </Hero>
+
+  <!-- Features2 Widget ************** -->
+
+  <Features2
+    title="Solana DeFi Ecosystem"
+    subtitle="DeFi is the movement that leverages decentralized networks to transform old financial products into trustless and transparent protocols that run without intermediaries. We have 188 DeFi projects listed and 20 of them built on Solana."
+  >
+    <Fragment slot="bg">
+      <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
+    </Fragment>
+  </Features2>
+
+  <!-- Stats Widget ****************** -->
+
+ 
+  
+</Layout>
