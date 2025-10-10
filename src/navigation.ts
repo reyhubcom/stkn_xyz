@@ -133,10 +133,10 @@ export const footerData = {
       ],
     },
     {
-      title: 'Platform',
+      title: 'MEME Coins',
       links: [
-        { text: 'Developer API', href: '#' },
-        { text: 'Partners', href: '#' },
+        { text: 'Staking BONKS', href: '#' },
+        { text: 'Staking PEPE', href: '#' },
         { text: 'Atom', href: '#' },
         { text: 'Electron', href: '#' },
         { text: 'AstroWind Desktop', href: '#' },
