@@ -54,9 +54,9 @@ const metadata = {
       },
        {
         variant: 'secondary',
-        target: '',
-        text: 'Exchange',
-        href: '/exchange',
+        target: '_blank',
+        text: 'ORCA',
+        href: 'https://www.orca.so/',
         icon: 'tabler:link',
       },
        
