@@ -97,8 +97,8 @@ export const headerData = {
           href: getPermalink( '/home/stable'),
         },
         {
-          text: 'Article (with MDX)',
-          href: getPermalink('markdown-elements-demo-post', 'post'),
+          text: 'MEME Coins',
+          href: getPermalink('/home/meme'),
         },
         {
           text: 'Category Page',
