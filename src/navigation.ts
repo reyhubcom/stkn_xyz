@@ -93,8 +93,8 @@ export const headerData = {
           href: getPermalink( '/home/bubble'),
         },
         {
-          text: 'Article',
-          href: getPermalink('get-started-website-with-astro-tailwind-css', 'post'),
+          text: 'Stablecoins',
+          href: getPermalink( '/home/stable'),
         },
         {
           text: 'Article (with MDX)',
