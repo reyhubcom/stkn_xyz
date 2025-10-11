@@ -101,8 +101,8 @@ export const headerData = {
           href: getPermalink('/home/meme'),
         },
         {
-          text: 'Category Page',
-          href: getPermalink('tutorials', 'category'),
+          text: 'Lite Lend',
+          href: getPermalink('/home/lite'),
         },
         {
           text: 'Tag Page',
