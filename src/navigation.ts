@@ -135,9 +135,9 @@ export const footerData = {
     {
       title: 'MEME Coins',
       links: [
-        { text: 'Staking BONKS', href: '#' },
-        { text: 'Staking PEPE', href: '#' },
-        { text: 'Atom', href: '#' },
+        { text: 'Staking BONKS', href: '/home/meme' },
+        { text: 'Staking PEPE', href: '/home/meme' },
+        { text: 'Staking FLOKI', href: '/home/meme' },
         { text: 'Electron', href: '#' },
         { text: 'AstroWind Desktop', href: '#' },
       ],
