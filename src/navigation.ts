@@ -6,20 +6,20 @@ export const headerData = {
       text: 'Staking',
       links: [
         {
-          text: 'Bitcoin Staking?',
+          text: 'Bitcoin Staking',
           href: getPermalink('/bitcoin/btc.1'),
         },
         {
-          text: 'Bitcoin Staking',
-          href: getPermalink('/home/btc'),
-        },
-        {
           text: 'Stake ETH',
-          href: getPermalink('/homes/stake'),
+          href: getPermalink('/ethereum/eth.1'),
         },
         {
-          text: 'Personal',
-          href: getPermalink('/homes/personal'),
+          text: 'Stake SOL',
+          href: getPermalink('/solana/sol.1'),
+        },
+        {
+          text: 'Stake STRK',
+          href: getPermalink('/starknet/strk.1'),
         },
       ],
     },
