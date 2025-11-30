@@ -1,0 +1,156 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+
+import Hero from '~/components/widgets/Hero.astro';
+import CallToAction from '~/components/widgets/CallToAction.astro';
+
+import Features2 from '~/components/widgets/Features2.astro';
+import Features from '~/components/widgets/Features.astro';
+import Stats from '~/components/widgets/Stats.astro';
+import Features3 from '~/components/widgets/Features3.astro';
+import FAQs from '~/components/widgets/FAQs.astro';
+import Brands from '~/components/widgets/Brands.astro';
+
+import { YouTube } from 'astro-embed';
+
+const metadata = {
+  title: 'Stable Coins',
+};
+---
+
+<Layout metadata={metadata}>
+  <!-- Hero Widget ******************* -->
+
+  <Hero
+    tagline=""
+     actions={[
+      {
+        variant: 'secondary',
+        target: '_blank',
+        text: 'Elixir',
+        href: 'https://www.elixir.xyz/deusd',
+        icon: 'tabler:link',
+      },
+      {
+        variant: 'secondary',
+        target: '_blank',
+        text: 'APP.Spreax',
+        href: 'https://www.app.sperax.io/',
+        icon: 'tabler:link',
+      },
+       {
+        variant: 'secondary',
+        target: '_blank',
+        text: 'Gaunlet',
+        href: 'https://app.gauntlet.xyz/vaults/gtusda',
+        icon: 'tabler:link',
+      },
+       {
+        variant: 'secondary',
+        target: '_blank',
+        text: 'APP.AAVE',
+        href: 'https://app.aave.com/staking/',
+        icon: 'tabler:link',
+      },
+       {
+        variant: 'secondary',
+        target: '_blank',
+        text: 'USD1',
+        href: 'https://worldlibertyfinancial.com/usd1',
+        icon: 'tabler:link',
+      },
+
+      
+       
+    ]}
+  >
+    <Fragment slot="title">
+      
+
+       <span class="hidden sm:inline"></span>  <span
+        class="text-accent dark:text-white"></span
+      > Stablecoins Mint
+    </Fragment>
+
+    <Fragment slot="subtitle">
+       <!-- TradingView Widget BEGIN -->
+<div class="tradingview-widget-container">
+  <div class="tradingview-widget-container__widget"></div>
+  <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/markets/" rel="noopener nofollow" target="_blank"><span class="white-text">Mints</span></a><span class="trademark"> & Earn Rewards</span></div>
+  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
+  {
+  "symbols": [
+    {
+      "proName": "CRYPTOCAP:USDC",
+      "title": ""
+    },
+    {
+      "proName": "CRYPTOCAP:USDT",
+      "title": ""
+    },
+    {
+      "proName": "CRYPTOCAP:DAI",
+      "title": ""
+    },
+    {
+      "proName": "COINBASE:USDSUSD",
+      "title": ""
+    },
+    {
+      "proName": "GEMINI:USD1USD",
+      "title": ""
+    },
+    {
+      "proName": "BITMEX:BPYUSDT",
+      "title": ""
+    },
+    {
+      "proName": "CRYPTO:USDLUSD",
+      "title": ""
+    },
+    {
+      "proName": "CRYPTO:FRXUSDUSD",
+      "title": ""
+    },
+    {
+      "proName": "CRYPTO:DEUSDUSD",
+      "title": ""
+    }
+  ],
+  "colorTheme": "dark",
+  "locale": "en",
+  "largeChartUrl": "",
+  "isTransparent": true,
+  "showSymbolLogo": true,
+  "displayMode": "compact"
+}
+  </script>
+</div>
+<!-- TradingView Widget END -->
+     
+   <script src="https://unpkg.com/@lottiefiles/dotlottie-wc@0.7.1/dist/dotlottie-wc.js" type="module"></script>
+<dotlottie-wc src="https://lottie.host/12f2938b-4e96-48cf-ad3e-86ee774f128b/inMoLFUGIS.lottie" speed="0.5" style="width: 100%; height: 700px" mode="forward" loop autoplay></dotlottie-wc>
+      <span class="font-semibold"> </span> 
+    </Fragment>
+
+    <Fragment slot="image">
+      
+    </Fragment>
+  </Hero>
+
+  <!-- Features2 Widget ************** -->
+
+  <Features2
+    title="Stable Coins Ecosystem"
+    subtitle="A stablecoin is a type of cryptocurrency designed to maintain a stable value, typically by pegging its price to a real-world asset like the U.S. dollar. This gives stablecoins the benefits of blockchain technology, such as fast, low-cost transfers, without the high price volatility of other cryptocurrencies like Bitcoin."
+  >
+    <Fragment slot="bg">
+      <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
+    </Fragment>
+  </Features2>
+
+  <!-- Stats Widget ****************** -->
+
+ 
+  
+</Layout>
