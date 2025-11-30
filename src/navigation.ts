@@ -115,7 +115,7 @@ export const headerData = {
       href: 'https://fluid.io/smart-lending/1' ,target: ' _blank',
     },
   ],
-  actions: [{ text: 'APP STAKING', href: 'https://linktr.ee/reystaking', target: '_blank' }],
+  actions: [{ text: 'EXCHANGE', href: '/home/exchange', target: '' }],
 };
 
 export const footerData = {
