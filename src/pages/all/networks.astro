@@ -1,189 +1,87 @@
 ---
 import Layout from '~/layouts/PageLayout.astro';
 
-import Header from '~/components/widgets/Header.astro';
-import Hero2 from '~/components/widgets/Hero2.astro';
+import Hero from '~/components/widgets/Hero.astro';
+import Note from '~/components/widgets/Note.astro';
 import Features from '~/components/widgets/Features.astro';
-import Steps2 from '~/components/widgets/Steps2.astro';
+import Features2 from '~/components/widgets/Features2.astro';
+import Steps from '~/components/widgets/Steps.astro';
 import Content from '~/components/widgets/Content.astro';
-import Pricing from '~/components/widgets/Pricing.astro';
-
-import { headerData } from '~/navigation';
-import FAQs from '~/components/widgets/FAQs.astro';
 import BlogLatestPosts from '~/components/widgets/BlogLatestPosts.astro';
+import FAQs from '~/components/widgets/FAQs.astro';
+import Stats from '~/components/widgets/Stats.astro';
+import CallToAction from '~/components/widgets/CallToAction.astro';
 
 const metadata = {
-  title: 'Staking Platform',
+  title: 'Digital Asset Staking | Validator & Delegate Crypto',
+  ignoreTitleTemplate: true,
 };
 ---
 
 <Layout metadata={metadata}>
-  <Fragment slot="header">
-    <Header
-      {...headerData}
-      actions={[
-        {
-          variant: 'secondary',
-          text: 'APP STAKING',
-          href: 'https://linktr.ee/reystaking',
-        },
-        {
-          variant: 'secondary',
-          text: 'STKN SHOP',
-          href: 'https://linktr.ee/reystaking',
-        },
-      ]}
-      isSticky
-    />
-  </Fragment>
+ <script type='text/javascript' src='https://platform-api.sharethis.com/js/sharethis.js#property=68f5508a4f065effd6283e6b&product=sop' async='async'></script>
+  <!-- Hero Widget ******************* -->
 
-  <!-- Hero2 Widget ******************* -->
-
-  <Hero2
-    tagline=""
-   
+  <Hero
     actions={[
-      
-      { text: 'Exchange', href: '/exchange' },
-      { text: 'App Staking', href: 'https://linktr.ee/reystaking' },
-      { text: 'Stake ETH', href: 'https://rocketpool.net/' },
-    ]}
-    image={{
-
      
-      src: 'https://images.unsplash.com/photo-1647331311387-9cca489b53f2?q=80&w=2574&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-      alt: 'AstroWind Hero Image',
-    }}
+    ]}
+  
   >
     <Fragment slot="title">
-
-      Staking  Protocol<br />  <span class="text-accent dark:text-white"></span> <br
- />
- 
+            <script src="https://unpkg.com/@lottiefiles/dotlottie-wc@0.7.1/dist/dotlottie-wc.js" type="module"></script>
+<dotlottie-wc src="https://lottie.host/91904867-6144-4f51-b3b2-34f41b37f8f4/HTIeBdaGsH.lottie" speed="1" style="width: 100%; height: 130px" mode="forward" loop autoplay></dotlottie-wc>
+      <span class="hidden xl:inline"> </span>
+      <span class="text-accent dark:text-white">Crypto Networks</span> 
     </Fragment>
 
     <Fragment slot="subtitle">
-      
       <span class="hidden sm:inline">
-        Build Your<span class="font-semibold">Protocol</span>Staking Knowledge.</span
+        <span class="font-semibold"> Web3.0</span> Crypto Exchange
+        <span class="font-semibold"></span> The average time for exchange is about 2 minutes. You can track the crypto swap progress on the exchange page.
+        </span
+       
       >
-     Staking is a process in which token holders can earn rewards by helping to secure a blockchain network. Watch the video to learn more about how staking works.
-    </Fragment>
-  </Hero2>
-
-  <!-- Features Widget *************** -->
-
-  <Content
+      <CallToAction
+    actions={[
    
-    title="Who is Staking For?"
-    subtitle=""
-   isReversed
-    items={[
-      {
-        title: 'Earn Passive Income:',
-        description:
-          'Staking allows you to earn rewards, similar to interest on a savings account, by validating transactions and securing the network.',
-        icon: 'tabler:layers-union',
-      },
-      {
-        title: 'Long-Term Investors:',
-        description: `Staking is a way to generate income on a digital asset you plan to hold long-term.`,
-        icon: 'tabler:artboard',
-      },
-      {
-        title: 'Become a Validator:',
-        description:
-          'For those with the necessary technical expertise and dedicated equipment, becoming a full validator offers a high degree of participation and rewards.',
-        icon: 'tabler:writing',
-      },
-      {
-        title: 'Improve Scalability:',
-        description: `PoS networks aim to be more scalable by eliminating the need for powerful, energy-intensive mining hardware.`,
-        icon: 'tabler:podium',
-      },
+    ]}
+  >
+    <Fragment slot="title">
      
-     ]}
-    image={{
-      src: 'https://images.unsplash.com/photo-1643000867361-cd545336249b?q=80&w=2681&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-      alt: 'Startup Image',
-    }}
-  >
-    <Fragment slot="content">
-      <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">
-        For Crypto Holders <br /><span class="text-2xl">Stake & Earn Rewards</span>
-      </h3>
     </Fragment>
 
-    <Fragment slot="bg">
-      <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
-    </Fragment>
-  </Content>
+    <Fragment slot="subtitle">
+      <script defer src="https://www.livecoinwatch.com/static/lcw-widget.js"></script> <div class="livecoinwatch-widget-5" lcw-base="USD" lcw-color-tx="#0693e9" lcw-marquee-1="coins" lcw-marquee-2="movers" lcw-marquee-items="30" ></div>
+  <!-- TradingView Widget BEGIN -->
+<div class="tradingview-widget-container">
+  <div class="tradingview-widget-container__widget"></div>
+  <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/markets/cryptocurrencies/prices-all/" rel="noopener nofollow" target="_blank"><span class="blue-text"></span></a><span class="trademark"> </span></div>
+  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-screener.js" async>
+  {
+  "defaultColumn": "overview",
+  "screener_type": "crypto_mkt",
+  "displayCurrency": "USD",
+  "colorTheme": "dark",
+  "isTransparent": true,
+  "locale": "en",
+  "width": "100%",
+  "height": "550"
+}
+  </script>
+</div>
+<!-- TradingView Widget END -->
+ </Fragment>
+    </CallToAction>
+     
+  </Hero>
 
-  <!-- Content Widget **************** -->
+  <!-- Note Widget ******************* -->
+ <script>
+  (function(){var w=window;if(w.ChannelIO){return w.console.error("ChannelIO script included twice.");}var ch=function(){ch.c(arguments);};ch.q=[];ch.c=function(args){ch.q.push(args);};w.ChannelIO=ch;function l(){if(w.ChannelIOInitialized){return;}w.ChannelIOInitialized=true;var s=document.createElement("script");s.type="text/javascript";s.async=true;s.src="https://cdn.channel.io/plugin/ch-plugin-web.js";var x=document.getElementsByTagName("script")[0];if(x.parentNode){x.parentNode.insertBefore(s,x);}}if(document.readyState==="complete"){l();}else{w.addEventListener("DOMContentLoaded",l);w.addEventListener("load",l);}})();
 
-  <Content
-    title="What is Staking?"
-    subtitle=""
-    isReversed
-    items={[
-      {
-        title: 'Description:',
-        description:
-          'Protocol staking is a process in which users can earn rewards by holding and “staking” their tokens in a blockchain network. Staking helps decentralize and maintain the health of the network. Staking provides a steady stream of rewards, independent of underlying token prices.',
-      },
-      {
-        title: 'Benefits:',
-        description: `Offering unique benefits when compared to investment product alternatives such as lending, buy-and-hold, and other methods, staking allows token holders to have the opportunity to grow their position without buying additional tokens.`,
-      },
-    ]}
-    image={{
-      src: 'https://images.unsplash.com/photo-1643488056768-fe017dc164b6?q=80&w=2669&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-      alt: 'Startup Image',
-    }}
-  >
-    <Fragment slot="content">
-      <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">
-        Crypto Staking Platform <br /><span class="text-2xl">Stake Across Blockchains</span>
-      </h3>
-    </Fragment>
-
-    <Fragment slot="bg">
-      <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
-    </Fragment>
-  </Content>
-
-  <!-- Content Widget **************** -->
-
-  <Content
-    isAfterContent={true}
-    items={[
-      {
-        title: 'Description:',
-        description: `Staking is not an investment product. Rather, it enables token holders to earn rewards by delegating their tokens in order to validate transactions on the underlying blockchain, which helps ensure the security and integrity of the network.`,
-      },
-      {
-        title: 'Benefits:',
-        description: `Staking offers unique benefits when compared to alternatives such as lending, buy-and-hold, and others. Token holders have the opportunity to grow their position without buying additional tokens.`,
-      },
-    ]}
-    image={{
-      src: 'https://images.unsplash.com/photo-1642403711604-3908e90960ce?q=80&w=2664&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-      alt: 'SaaS Businesses Image',
-    }}
-  >
-    <Fragment slot="content">
-      <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">
-        Why Stake? <br /><span class="text-2xl">Staking is a Way to Earn Rewards</span>
-      </h3>
-    </Fragment>
-
-    <Fragment slot="bg">
-      <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
-    </Fragment>
-  </Content>
-
-  
-
-  
- 
+  ChannelIO('boot', {
+    "pluginKey": "d8136106-354a-4734-adb1-21da70253c66"
+  });
+</script>
 </Layout>
