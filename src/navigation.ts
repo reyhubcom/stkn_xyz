@@ -129,7 +129,7 @@ export const footerData = {
         { text: 'BASE', href: '#' },
         { text: 'Polygon', href: '#' },
         { text: 'Cosmos', href: '#' },
-        { text: 'All Networks', href: '/home/crypto' },
+        { text: 'All Networks', href: '/all/networks' },
       ],
     },
     {
