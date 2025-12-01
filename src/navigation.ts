@@ -21,6 +21,10 @@ export const headerData = {
           text: 'Stake STRK',
           href: getPermalink('/starknet/strk.1'),
         },
+        {
+          text: 'All Networks',
+          href: getPermalink('/all/networks'),
+        },
       ],
     },
     {
