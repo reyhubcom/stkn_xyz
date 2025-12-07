@@ -65,7 +65,7 @@ export const headerData = {
       links: [
         {
           text: 'Crypto Bridge',
-          href: getPermalink('/home/bridge'),
+          href: getPermalink('/bridge/b.1'),
         },
         {
           text: 'Long-form Sales',
