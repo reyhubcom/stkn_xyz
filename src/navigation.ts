@@ -72,8 +72,8 @@ export const headerData = {
           href: getPermalink('/stocks/s.1'),
         },
         {
-          text: 'Click-Through',
-          href: getPermalink('/landing/click-through'),
+          text: 'Liquid',
+          href: getPermalink('/liquid/l.1'),
         },
         {
           text: 'Product Details (or Services)',
