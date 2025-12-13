@@ -31,15 +31,15 @@ export const headerData = {
       text: 'DeFi',
       links: [
         {
-          text: 'Solana DeFi ',
-          href: getPermalink('/home/sol'),
-        },
-        {
-          text: 'Ethereum DeFi',
-          href: getPermalink('/home/eth'),
+          text: 'Ethereum DeFi ',
+          href: getPermalink('/defi/ethereum'),
         },
         {
           text: 'Binance DeFi',
+          href: getPermalink('/home/eth'),
+        },
+        {
+          text: 'Gnosis DeFi',
           href: getPermalink('/home/bnb'),
         },
         {
