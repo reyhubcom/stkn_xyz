@@ -76,17 +76,10 @@ export const headerData = {
           href: getPermalink('/liquid/l.1'),
         },
         {
-          text: 'Product Details (or Services)',
-          href: getPermalink('/landing/product'),
+          text: 'NFTs',
+          href: getPermalink('#'),
         },
-        {
-          text: 'Coming Soon or Pre-Launch',
-          href: getPermalink('/landing/pre-launch'),
-        },
-        {
-          text: 'Subscription',
-          href: getPermalink('/landing/subscription'),
-        },
+       
       ],
     },
     {
