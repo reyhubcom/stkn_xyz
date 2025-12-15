@@ -36,7 +36,7 @@ export const headerData = {
         },
         {
           text: 'Binance DeFi',
-          href: getPermalink('/home/eth'),
+          href: getPermalink('/defi/binance'),
         },
         {
           text: 'Gnosis DeFi',
