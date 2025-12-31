@@ -112,7 +112,7 @@ export const headerData = {
       href: '/home/exchange' ,target: ' ',
     },
   ],
-  actions: [{ text: 'MEME', href: '/meme/coin', target: '' }],
+  actions: [{ text: 'MEME COIN', href: '/meme/coin', target: '' }],
 };
 
 export const footerData = {
