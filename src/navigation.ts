@@ -108,11 +108,11 @@ export const headerData = {
       ],
     },
     {
-      text: 'Lending',
-      href: 'https://fluid.io/smart-lending/1' ,target: ' _blank',
+      text: 'Exchange',
+      href: '/home/exchange' ,target: ' ',
     },
   ],
-  actions: [{ text: 'EXCHANGE', href: '/home/exchange', target: '' }],
+  actions: [{ text: 'MEME', href: '/meme/coin', target: '' }],
 };
 
 export const footerData = {
