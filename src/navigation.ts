@@ -93,10 +93,7 @@ export const headerData = {
           text: 'Stablecoins',
           href: getPermalink( '/home/stable'),
         },
-        {
-          text: 'MEME Coins',
-          href: getPermalink('/home/meme'),
-        },
+        
         {
           text: 'Lite Lend',
           href: getPermalink('/home/lite'),
