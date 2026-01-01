@@ -28,11 +28,11 @@ export const headerData = {
       ],
     },
     {
-      text: 'DeFi',
+      text: 'Products',
       links: [
         {
-          text: 'Ethereum DeFi ',
-          href: getPermalink('/defi/ethereum'),
+          text: 'Stocks',
+          href: getPermalink('/stocks/s.1'),
         },
         {
           text: 'Binance DeFi',
@@ -61,7 +61,7 @@ export const headerData = {
       ],
     },
     {
-      text: 'Product',
+      text: 'Lending',
       links: [
         {
           text: 'Crypto Bridge',
