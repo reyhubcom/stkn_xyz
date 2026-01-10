@@ -39,7 +39,7 @@ export const headerData = {
           href: getPermalink('/defi/binance'),
         },
         {
-          text: 'Gnosis DeFi',
+          text: 'CoinBrain',
           href: getPermalink('/home/bnb'),
         },
         {
